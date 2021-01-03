@@ -1,0 +1,23 @@
+<div id='myapp'>
+    <input type="button" @click='allBooks()' value='Select All Books'>
+    <br><br>
+
+    <input type='text' v-model='userid' placeholder="Enter Book ID">
+    <input type='button' @click='bookByID' value='Select user by ID'>
+    <br><br>
+
+    <table border='1' width='80%' style='border-collapse: collapse;'>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Category</th>
+        </tr>
+
+        <tr v-for='book in Books'>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.category }}</td>
+
+        </tr>
+    </table>
+</div>

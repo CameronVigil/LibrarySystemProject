@@ -1,0 +1,22 @@
+{
+  "name": "install",
+  "version": "1.0.0",
+  "description": "This project is to expand on my previously made project, Library System. I initially coded that one\r in C++ to demonstrate my understanding of Object-Oriented Programming. I have been interested in\r learning how to make a web application, so I have been trying to turn my previously made project\r into a full stack web app. I started by converting the code into Python, to practice OOP in PYthon\r and in hopes make my end goal easier to achieve. I have researched how to implement a database\r for an Object-Oriented program, and I have decided on an Object Relational Mapping design, using\r SQLAlchemy. Now that I have a very simple database set up for the library book items, I am now\r attempting to add a frontend to the project with Vue.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronVigil/LibrarySystemProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronVigil/LibrarySystemProject/issues"
+  },
+  "homepage": "https://github.com/CameronVigil/LibrarySystemProject#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
